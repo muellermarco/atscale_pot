@@ -8,8 +8,8 @@
 # Organization: default
 # Project: Sales Insights
 
-connection: "atscalelorealpot"
-label: "Sales Insights"
+connection: "atscaleloreal"
+label: "Sales Insights loreal"
 
 
 include: "/views/Sales_Insights/Internet_Sales_Cube.view.lkml"
@@ -18,4 +18,3 @@ include: "/views/Sales_Insights/Internet_Sales_Cube.view.lkml"
 explore: Internet_Sales_Cube {
   label: "Internet Sales Cube"
 }
-
